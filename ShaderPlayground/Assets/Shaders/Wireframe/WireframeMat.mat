@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: WireframeMat
   m_Shader: {fileID: 4800000, guid: 9a3549c0f6bb9cf41af9f3f76bc9b572, type: 3}
-  m_ShaderKeywords: HIDE_DIAGONALS TRANSITION_SMOOTH
+  m_ShaderKeywords: TRANSITION_SMOOTH
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -63,7 +63,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HideDiagonals: 1
+    - _HideDiagonals: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -71,13 +71,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Thickness: 0.052
+    - _Thickness: 0.049
     - _TransitionSmooth: 1
     - _TransparencyOn: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0.9295864, a: 1}
+    - _Color: {r: 0, g: 0.6496258, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FillColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -56,8 +56,6 @@ void geom(triangle v2g i[3], inout TriangleStream<g2f> triangleStream)
 	triangleStream.Append(o);
 }
 
-// ignore long side of triangle?
-
 fixed4 frag(g2f i) : SV_Target
 {
 	fixed4 col;
